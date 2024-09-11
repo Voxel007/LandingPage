@@ -1,0 +1,92 @@
+.Main{
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.Header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    flex-grow:1;
+
+    
+}
+
+.TopContent{
+    background-color: #1f2937;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+
+.RandomInfo{
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-grow: 100%;
+min-height: 20%;
+}
+
+.InspiringQuote{
+    background-color:grey;
+    text-align: center;
+    min-height: 20%;
+
+}
+
+.CallToAction{
+align-items: center;
+background-color: lightblue;
+min-height: 20%;
+}
+
+.Footer{
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.HorizontalCards{
+    display: flex;
+    text-align: center;
+    
+}
+.card {
+    flex: 1 0 80px;
+    border: 3px solid lightblue;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+    padding: 15px;
+    margin:20px;
+    flex-shrink: 1;
+}
+
+img {
+    width: 200px;
+    height: 170px;
+    margin: 20px;
+  }
+
+h3,h6{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+
+}
+a{
+    text-decoration: none; /* Removes the underline */
+    color:gray;
+    margin-right: 10px;
+
+}
+
+
